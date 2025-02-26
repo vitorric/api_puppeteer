@@ -1,0 +1,16 @@
+package-lock.json
+
+node_modules
+dist
+
+.env.local
+.env.homolog
+.env.production
+
+yarn-error.log
+
+security/*.key
+security/*.crt
+security/*.csr
+
+tsconfig.tsbuildinfo
