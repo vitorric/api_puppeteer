@@ -35,4 +35,5 @@ Caso tenha solução melhor, como o próprio **PM2**, não tem problema em troca
 ## Endpoints:
 
 http://localhost:3333/health - Válida se a API esta de pé;
+
 http://localhost:3333/validation/html2pdf - Cria um PDF com a senha **1234** e faz o download do mesmo.
