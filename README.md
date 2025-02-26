@@ -10,6 +10,8 @@ Este é um projeto simples para a conversão de um HTML para PDF com senha, usan
 
 [qPDF](https://qpdf.readthedocs.io/en/stable/overview.html): para adicionar senha ao PDF;
 
+[s3fs](https://linuxbeast.com/blog/how-to-mount-s3-bucket-on-ubuntu-22-04-with-s3fs-fuse/): este não esta no projeto, mas usamos ele para salvar o arquivo do pdf no s3, quando ele é gerado.
+
 ## Como rodar
 
 Execute:
@@ -38,3 +40,4 @@ Caso tenha solução melhor, como o próprio **PM2**, não tem problema em troca
 http://localhost:3333/health - Válida se a API esta de pé;
 
 http://localhost:3333/validation/html2pdf - Cria um PDF com a senha **1234** e faz o download do mesmo.
+
