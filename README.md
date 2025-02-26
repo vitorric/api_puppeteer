@@ -7,6 +7,7 @@ Este é um projeto simples para a conversão de um HTML para PDF com senha, usan
 ## Dependências
 
 [Puppeteer](https://ploi.io/documentation/server/how-to-install-puppeteer-on-ubuntu): instalações necessárias para rodar no ambiente linux;
+
 [qPDF](https://qpdf.readthedocs.io/en/stable/overview.html): para adicionar senha ao PDF;
 
 ## Como rodar
